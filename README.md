@@ -1,6 +1,6 @@
 # emuChip8
 
-This is my implementation of a C++ emulator of the Chip8 interpreter. It was made for educational purposes. This project was made in Visual Studio 2019 and it uses the SDL2 library. I chose the SDL2 library because it simplifies graphics, audio and key inputs.
+This is my implementation of a C++ emulator of the Chip8 interpreter. It was made for educational purposes. This project was made in Visual Studio 2019 and it uses the SDL2 library. I chose the SDL2 library because it simplifies graphics and key inputs.
 
 ### Installing
 
