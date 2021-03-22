@@ -90,11 +90,9 @@ void Chip8::setKeys() {
 	SDL_Event event;
 	while (SDL_PollEvent(&event)) {
 		switch (event.type) {
-			// exit if the window is closed
 			case SDL_QUIT:
 				exit(0);
 				break;
-			// check for keypresses
 			case SDL_KEYDOWN:
 				switch (event.key.keysym.sym) {
 					case SDLK_1:
